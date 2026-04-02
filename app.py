@@ -34,8 +34,10 @@ warnings.filterwarnings("ignore")
 # ★  HARDCODED API KEY  ★
 #    Replace the string below with your Groq key
 # ─────────────────────────────────────────────
-GROQ_API_KEY = "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"   # ← paste your key here
 
+
+import os
+api_key = os.getenv("GROQ_API_KEY")
 # ─────────────────────────────────────────────
 # PAGE CONFIG
 # ─────────────────────────────────────────────
